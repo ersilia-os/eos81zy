@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Enterococcus faecium, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-05-25.
+This model was incorporated on 2026-05-19.Last packaged on 2026-05-29.
 
 ## Information
 ### Identifiers
@@ -48,12 +48,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `60`
 - **Environment Size (Mb):** `1889`
-- **Image Size (Mb):** `2115.55`
+- **Image Size (Mb):** `2115.56`
 
 **Computational Performance (seconds):**
-- 10 inputs: `42.12`
-- 100 inputs: `30.46`
-- 10000 inputs: `577.44`
+- 10 inputs: `39.04`
+- 100 inputs: `37.09`
+- 10000 inputs: `617.38`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
