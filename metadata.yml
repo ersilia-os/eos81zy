@@ -22,9 +22,7 @@ Output:
   - Score
 Output Dimension: 8
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Enterococcus 
-  faecium from 7 ChEMBL-trained sub-models, plus a quality-weighted consensus 
-  score.
+Interpretation: Probability of antimicrobial activity against Enterococcus faecium from 7 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
 Tag:
   - Gram-positive bacteria
   - ESKAPE
