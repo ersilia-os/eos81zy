@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Enterococcus faecium from public ChEMBL data
 
-Bioactivity prediction of growth inhibition in Enterococcus faecium, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Predicts activity against Enterococcus faecium, one of the ESKAPE pathogens and a frequent source of hospital-acquired infection where vancomycin resistance is now common. Eight classifiers were fitted to separate ChEMBL assay pools and aggregated into a quality-weighted consensus. Enterococci tolerate many antibacterials intrinsically, so predicted growth inhibition based on structure alone should be confirmed phenotypically before a compound is pursued.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `9`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Enterococcus faecium from 8 ChEMBL-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of Enterococcus faecium growth inhibition across eight sub-models, plus a weighted consensus.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
