@@ -1720,15 +1720,15 @@
     true,
     true
   ],
-  "decision_cutoff_raw": 2.9774541316648066e-90,
+  "decision_cutoff_raw": 7.737575558710952e-91,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
-  "decision_cutoff_proba": 0.2038302834101313,
-  "decision_cutoff_rank": 0.4945054945054945,
-  "decision_cutoff_logit": -1.3625246713955872,
+  "decision_cutoff_proba": 0.20295699773920486,
+  "decision_cutoff_rank": 0.49121844127332603,
+  "decision_cutoff_logit": -1.3679145096877046,
   "calibrator": {
     "method": "platt",
-    "coef": 2.1338257543333934,
-    "intercept": -1.3625246713955872
+    "coef": 2.128769914206479,
+    "intercept": -1.3679145096877046
   },
   "ranker": {
     "knots": [
@@ -2178,13 +2178,13 @@
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0,
-      2.248143961189097e-112,
-      2.9774541316648066e-90,
-      9.875922878320415e-90,
+      2.25274402032438e-112,
+      7.737575558710952e-91,
+      8.58708576070809e-90,
       0.9999999999999984,
+      1.0,
+      1.0,
+      1.0,
       1.0,
       1.0,
       1.0,
