@@ -46,7 +46,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos81zy](https://hub.docker.com/r/ersiliaos/eos81zy)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos81zy.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos81zy.zip)
-- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos81zy_v5.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos81zy_v5.sif)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos81zy_v6.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos81zy_v6.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `136`
